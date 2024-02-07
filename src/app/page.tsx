@@ -17,7 +17,7 @@ export default async function Home() {
           name='name'
           id='name'
           placeholder='Name'
-          className='border-2 border-solid border-black p-2 rounded-md'
+          className='border border-solid border-black p-2 rounded-md'
         />
         <br />
         <input
@@ -25,12 +25,12 @@ export default async function Home() {
           name='email'
           id='email'
           placeholder='Email'
-          className='border-2 border-solid border-black p-2 rounded-md'
+          className='border border-solid border-black p-2 rounded-md'
         />
         <br />
         <button
           type='submit'
-          className='border-2 border-solid bg-blue-500 text-white rounded-md px-4 py-2'
+          className='border-1 border-solid bg-blue-500 text-white rounded-md px-4 py-2'
         >
           Login
         </button>
@@ -45,7 +45,7 @@ export default async function Home() {
       >
         <button
           type='submit'
-          className='border-2 border-solid bg-red-500 text-white rounded-md px-4 py-2'
+          className='border-1 border-solid bg-red-500 text-white rounded-md px-4 py-2'
         >
           Logout
         </button>
