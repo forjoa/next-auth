@@ -1,4 +1,4 @@
-# Understandign JWT Authentication in Next.js
+# Understanding JWT Authentication in Next.js
 
 For this little project, we are using `jose` library. 
 
