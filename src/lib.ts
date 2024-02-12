@@ -27,7 +27,7 @@ export async function login(formData: FormData) {
   }
 
   // create session
-  const expires = new Date(Date.now() + 10 * 1000)
+  const expires = new Date(Date.now() + 10 * 100000)
   const session = await encrypt({ user, expires })
 
   // save session in a cookie
